@@ -2,7 +2,7 @@
 
 import rich, sys
 from lib import HostAddress, SlowLorisAttack
-from lib import logo, logos
+from lib import logo
 
 
 url = HostAddress.from_url(f"http://{sys.argv[1]}")
